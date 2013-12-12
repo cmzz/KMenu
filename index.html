@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title></title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<!-- 引入KMenu -->
+	<script type="text/javascript" src="jQuery.KMenu.js"></script>
+	<script type="text/javascript">		
+		$(function(){
+			$("body").KMenu({
+				//参数设定
+				// 'nums': 6, 				//按钮数量
+				// 'type': 'circle', 		//显示形状
+				// 'time': 300, 			//触发时间
+				// 'atime': 100,			//动画速度
+				// 'radius': 40,			//环形半径
+				// 'width': 30,				//元素的宽高
+				// 'btnbg': '#ccc',			//按钮的背景色
+				// 'btnhoverbg':'#444444', 	//hover时的背景色
+				// 'data': []				//按钮数据 json格式的2维数组
+				'btnbg': '#B9BFC1',
+				'btnhoverbg':'#E95C33',
+				'data':[
+					{
+						"icon": "images/apple-48.png",
+						"link": "http://apple.com",
+						"title": "Apple"
+					},
+					{
+						"icon": "images/blogger-48.png",
+						"link": "http://blogger.com",
+						"title": "Blogger"
+					},
+					{
+						"icon": "images/bootstrap-48.png",
+						"link": "http://bootstrap.com",
+						"title": "Bootstrap"
+					},
+					{
+						"icon": "images/drupal-48.png",
+						"link": "http://drupal.com",
+						"title": "Drupal"
+					},
+					{
+						"icon": "images/flickr-48.png",
+						"link": "http://flickr.com",
+						"title": "Flickr"
+					},
+					{
+						"icon": "images/google-48.png",
+						"link": "http://google.com",
+						"title": "Google"
+					}
+				]
+			});			
+		})
+	</script>	
+</head>
+<body>
+	<div style="width:100%; min-height:600px; text-align: center">
+		<h3 style="padding-top:200px;">Hi~ 请在页面上长按鼠标左键有惊喜哦！ </h3>
+		<h4>Git: <a href="https://github.com/cmzz/KMenu">https://github.com/cmzz/KMenu</a></h4>
+	</div>
+	<div class="footer" style="width:100%; position: fixed; bottom:0; height:50px; line-height: 50px; background:#e3e3e3; border-top: 1px solid #ddd; text-align:center;">
+		&copy; 2013 wuzhuo.
+	</div>
+	<style type="text/css">
+		body {font-family:"ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;}
+	</style>
+</body>
+</html>
