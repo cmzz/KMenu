@@ -6,45 +6,46 @@ KMenu
 ### 使用方法:
 1. 引入jQuery库文件
 2. 引入jQuery.KMenu.js
-3. 把下面的代码入到页面中			
-    $(function(){
-    	$("body").KMenu({
-    		'btnbg': '#B9BFC1',
-    		'btnhoverbg':'#E95C33',
-    		'data':[
-    			{
-    				"icon": "images/apple-48.png",
-    				"link": "http://apple.com",
-    				"title": "Apple"
-    			},
-    			{
-    				"icon": "images/blogger-48.png",
-    				"link": "http://blogger.com",
-    				"title": "Blogger"
-    			},
-    			{
-    				"icon": "images/bootstrap-48.png",
-    				"link": "http://bootstrap.com",
-    				"title": "Bootstrap"
-    			},
-    			{
-    				"icon": "images/drupal-48.png",
-    				"link": "http://drupal.com",
-    				"title": "Drupal"
-    			},
-    			{
-    				"icon": "images/flickr-48.png",
-    				"link": "http://flickr.com",
-    				"title": "Flickr"
-    			},
-    			{
-    				"icon": "images/google-48.png",
-    				"link": "http://google.com",
-    				"title": "Google"
-    			}
-    		]
-    	});			
-    })
+
+### Example
+        $(function(){
+            $("body").KMenu({
+                'btnbg': '#B9BFC1',
+    		    'btnhoverbg':'#E95C33',
+    		    'data':[
+        			{
+        				"icon": "images/apple-48.png",
+        				"link": "http://apple.com",
+        				"title": "Apple"
+        			},
+        			{
+        				"icon": "images/blogger-48.png",
+        				"link": "http://blogger.com",
+        				"title": "Blogger"
+        			},
+        			{
+        				"icon": "images/bootstrap-48.png",
+        				"link": "http://bootstrap.com",
+        				"title": "Bootstrap"
+        			},
+        			{
+        				"icon": "images/drupal-48.png",
+        				"link": "http://drupal.com",
+        				"title": "Drupal"
+        			},
+        			{
+        				"icon": "images/flickr-48.png",
+        				"link": "http://flickr.com",
+        				"title": "Flickr"
+        			},
+        			{
+        				"icon": "images/google-48.png",
+        				"link": "http://google.com",
+        				"title": "Google"
+        			}
+    		    ]
+    	    });			
+        })
 
 ### 参数设定
     可以在实例化时传入下面的参数：
